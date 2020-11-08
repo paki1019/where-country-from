@@ -1,0 +1,12 @@
+{
+  "name": "wcf-node-api",
+  "version": "1.0.0",
+  "description": "where-country-from node-api",
+  "main": "app.js",
+  "author": "paki1019@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1"
+  }
+}

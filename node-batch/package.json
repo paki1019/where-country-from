@@ -1,7 +1,7 @@
 {
-  "name": "where-country-from",
+  "name": "wcf-node-batch",
   "version": "1.0.0",
-  "description": "",
+  "description": "where-country-from node-batch",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +9,10 @@
   "author": "paki1019@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "csvtojson": "^2.0.10",
-    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.10.13",
     "node-schedule": "^1.3.2",
-    "node-wget": "^0.4.3"
+    "node-wget": "^0.4.3",
+    "request": "^2.88.2"
   }
 }
