@@ -119,3 +119,5 @@ dist
 # csv file
 *.csv
 *.txt
+
+tmp/

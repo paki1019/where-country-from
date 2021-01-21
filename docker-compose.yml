@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+    node-api:
+        image: node:12-alpine
+        ports:
+            - 3000:3000
+        working_dir: /app
+        volumes:
+            - ./node-api/:/app
+            - ipv4-table:/app/tmp
+        command: sh -c "npm install && npm start"
+    node-batch:
+        image: node:12-alpine
+        working_dir: /app
+        volumes:
+            - ./node-batch/:/app
+            - ipv4-table:/app/tmp
+        command: sh -c "npm install && npm start"
+
+volumes:
+    ipv4-table:
